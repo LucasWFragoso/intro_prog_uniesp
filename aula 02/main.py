@@ -23,12 +23,23 @@ if __name__ == "__main__":
     #     print(f'Valor da media inválido, média: {media}')
 
     # 3
-    value1 = float(input('digite um valor: '))
-    value2 = float(input('digite outro valor: '))
+    # value1 = float(input('digite um valor: '))
+    # value2 = float(input('digite outro valor: '))
     
-    if value1 > value2:
-        print(f'O valor1:{value1} é maior que o valor2:{value2}')
-    elif value2 > value1:
-        print(f'O valor2:{value2} é maior que o valor1:{value1}')
-    else:
-        print(f'O valor1:{value1} é igual ao valor2:{value2}')
+    # if value1 > value2:
+    #     print(f'O valor1:{value1} é maior que o valor2:{value2}')
+    # elif value2 > value1:
+    #     print(f'O valor2:{value2} é maior que o valor1:{value1}')
+    # else:
+    #     print(f'O valor1:{value1} é igual ao valor2:{value2}')
+
+    # 4
+    # value1 = float(input('digite um valor: '))
+    # value2 = float(input('digite outro valor: '))
+    
+    # if value1 > value2:
+    #     print(f'{value1}, {value2}')
+    # else:
+    #     print(f'{value2}, {value1}')
+
+    
