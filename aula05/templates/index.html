@@ -1,12 +1,5 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flask class</title>
-</head>
-<body>
+{% extends "modelo.html" %}
+{% block conteudo %}
     <h1>Alô Mundo! ( Hello World! )</h1>
     <h1>Meu primeiro título</h1>
     <p>Meu primeiro <b>parágrafo negrito</b> </p>
@@ -29,5 +22,5 @@
         <em>Texto em italico</em><br>
         <strong>Texto em negrito</strong>
     </p>
-</body>
-</html>
+    <p><a href="./sobre-equipe.html">Próxima página</a></p>
+{% end conteudo %}
